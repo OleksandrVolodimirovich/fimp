@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;900&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -21,35 +19,6 @@
                     <nav class="header__menu">
                         <ul class="header__menu__list">
                             <li class="header__menu__list-item"><a class="header__menu__list-link" href="#">Про нас</a>
-                                <ul class="header__sub-menu">
-                                    <li class="header__sub-menu-list">
-                                        <a href="https://cube44.com.ua/ua/faq/">Питання та відповіді</a>
-                                    </li>
-                                    <li class="header__sub-menu-list">
-                                        <a href="#">Гарантії та експлуатація</a>
-                                    </li>
-                                    <li class="header__sub-menu-list">
-                                        <a href="#">Якість меблів</a>
-                                    </li>
-                                    <li class="header__sub-menu-list">
-                                        <a href="#">Наші клієнти</a>
-                                    </li>
-                                    <li class="header__sub-menu-list">
-                                        <a href="#">Нагороди</a>
-                                    </li>
-                                    <li class="header__sub-menu-list">
-                                        <a href="#">Сертификати</a>
-                                    </li>
-                                    <li class="header__sub-menu-list">
-                                        <a href="#">Каталоги</a>
-                                    </li>
-                                    <li class="header__sub-menu-list">
-                                        <a href="#">Блог</a>
-                                    </li>
-                                    <li class="header__sub-menu-list">
-                                        <a href="#">Контакти</a>
-                                    </li>
-                                </ul>
                             </li>
                             <li class="header__menu__list-item">
                                 <a class="header__menu__list-link" href="#">Доставка та оплата</a>
@@ -84,17 +53,6 @@
                     </div>
                     <div class="header__form">
                         <div class="header__form-icon-bar">
-                            <div class="header__user-avatar">
-                                <a data-toggle="modal" href="#register-login">
-                                    <svg class="icon icon-avatar">
-                                        <use xlink:href="images/icons.svg#avatar"></use>
-                                    </svg>
-                                </a>
-                                <svg class="icon icon-heart">
-                                    <use xlink:href="images/icons.svg#heart"></use>
-                                </svg>
-                                <span class="header__counter header__heart-counter">0</span>
-                            </div>
                             <div href="#" class="header__form-basket">
                                 <a href="#" class="header__form-card">
                                     <svg class="icon icon-shopping-cart">
@@ -1498,6 +1456,26 @@
                     </div>
                 </div>
             </section>
+            <section class="info">
+                <h1 class="info-h1">КУЗНЯ FIMP – ПЕРФЕКЦІОНІЗМ У КОЖНІЙ ДЕТАЛІ</h1>
+                <div class="info-center">
+                    <h3 class="info-center__h3">
+                        <span class="info-center__text">FIMP</span>
+                    </h3>
+                </div>
+                    <div class="info-wrapper">
+                        <div class="info-left">
+                            <p class="info-text">Тонко відчути віяння часу та йти за ним – це особливий талант. Компанія виробляє меблі в найпопулярніших сьогодні стилях лофт і мінімалізм.</p>
+                            <p class="info-text">У лінійці бренду велика кількість різних предметів – столи, крісла, барні стільці, дивани, стелажі, консолі і рейли для одягу. І кожен предмет створюється з особливою увагою до деталей, кожна річ доводиться і збирається вручну.</p>
+                            <img class="info-img" src="images/img-1.png" alt="FIMP">
+                        </div>
+                        <div class="info-right">
+                            <img class="info-img" src="images/img-2.png" alt="FIMP">
+                            <p class="info-text">Перфекціонізм у кожній деталі – головний принцип FIMP</p>
+                            <p class="info-text">Основа меблевих каркасів з високоякісного металу, а для поверхонь використовується натуральний шпон дуба.</p>
+                        </div>
+                    </div>
+            </section>
         </div>
     </main>
     <footer class="footer">
@@ -1508,21 +1486,45 @@
                     <div class="subscribe-desc">Підпишись на наші новини</div>
                     <div class="form">
                         <form class="form-form" action="">
-                            <div class="form-input">
-                                <input type="hidden">
-                                <input type="hidden">
-                                <input type="hidden">
-                                <input type="hidden">
-                                <input type="hidden">
-                                <input type="hidden">
+                            <div class="form-input"></div>
+                            <div class="form-text">
+                                <span class="email">
+                                    <input class="email-input" type="email" placeholder="E-mail">
+                                </span>
+                                <button class="form-button" type="submit">
+                                    <i class="icon icon-send"></i>
+                                </button>
                             </div>
-                            <p class="form-text">
-                                <span class="email"></span>
-                                <button class="form-button"></button>
-                            </p>
                         </form>
                     </div>
                 </div>
+            </section>
+            <section class="footer-nav">
+                <ul class="footer-menu">
+                    <li class="footer-item"><a class="footer-nav__link">ПРО НАС</a></li>
+                    <li class="footer-item"><a class="footer-nav__link">ДОСТАВКА ТА ОПЛАТА</a></li>
+                    <li class="footer-item"><a class="footer-nav__link">ПОЛІТИКА КОНФІДЕНЦІЙНОСТІ</a></li>
+                    <li class="footer-item"><a class="footer-nav__link">КОНТАКТИ</a></li>
+                    <li class="footer-item"><a class="footer-nav__link">ЯКІСТЬ МЕБЛІВ</a></li>
+                    <li class="footer-item"><a class="footer-nav__link">АКЦІЇ</a></li>
+                </ul>
+            </section>
+            <section class="footer-social">
+                <a class="social-link" href="#">
+                    <img class="social-ico" src="" alt="">
+                </a>
+                <a class="social-link" href="#">
+                    <img class="social-ico" src="" alt="">
+                </a>
+                <a class="social-link" href="#">
+                    <img class="social-ico" src="" alt="">
+                </a>
+                <a class="social-link" href="#">
+                    <img class="social-ico" src="" alt="">
+                </a>
+                <a class="social-link" href="#">
+                    <img class="social-ico" src="" alt="">
+                </a>
             </section>
         </div>
     </footer>
